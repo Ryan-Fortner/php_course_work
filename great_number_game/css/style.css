@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  div{
+    width: 50%;
+    height: 250px;
+    display: inline-block;
+    margin: 10px;
+  }
+  div h4{
+    margin: 0px;
+    font-size: 36px;
+  }
+  div.incorrect{
+    line-height: 250px;
+    background-color: red;
+    color: white;
+  }
+  div.correct{
+    background-color: green;
+    color: black;
+  }
+  div.correct h4{
+    margin: 50px;
+  }
